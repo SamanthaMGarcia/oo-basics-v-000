@@ -8,13 +8,10 @@ class Shoe
   end
   
   def cobble
-    puts "Your shoe is "
+    puts "Your shoe is as good as new!"
   end
   
 end
 
-book = Book.new("Some Title")
-book.turn_page
-
-
-# Make your shoe class here!
+shoe = Shoe.new("Some Brand")
+book.cobble
